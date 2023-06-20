@@ -1,0 +1,13 @@
+.scroll-btn {
+    position: fixed;
+    padding: 5px 35px;
+    font-size: 20px;
+    bottom: 6px;
+    border-radius: 99px;
+    background-color: var(--primary);
+    color: #fff;
+    text-align: center;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    //transform: translateY(40px);
+}

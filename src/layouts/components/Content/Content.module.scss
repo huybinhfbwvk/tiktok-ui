@@ -1,0 +1,47 @@
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+
+.get-app {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+    bottom: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+    border: 1px solid rgba(22, 24, 35, 0.03);
+    border-radius: 8px;
+    transition: all 0.3s cubic-bezier(0.4, 0.14, 0.3, 1) 0s;
+}
+
+.get-app-btn {
+    height: 32px;
+    min-width: 90px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(22, 24, 35, 0.75);
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 52px;
+    white-space: nowrap;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(22, 24, 35, 0.12);
+    cursor: pointer;
+}
+
+.get-app-show {
+    display: flex;
+}
+
+.btn-close {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
